@@ -4,6 +4,6 @@
 <title></title>
 </head>
 <body>
-    <div><a href="input_enq.php">入力へ進む</div>
+    <div><a href="input_enq.php">ありがとうございました</div>
 </body>
 </html>
