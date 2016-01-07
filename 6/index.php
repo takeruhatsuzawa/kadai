@@ -4,17 +4,29 @@
 <title></title>
 </head>
 <body>
-<ul>
-<li><a href="get.php">form(get)</a></li>
-<li><a href="post.php">form(post)</a></li>
-<li><a href="hensu.php">変数</a></li>
-<li><a href="hairetsu.php">配列</a></li>
-<li><a href="seigyo.php">制御構文</a></li>
-<li><a href="kansu.php">関数</a></li>
-</ul>
-<ul>
-<li><a href="write.php">ファイル書き込み</a></li>
-<li><a href="read.php">ファイル読み込む</a></li>
-</ul>
+    
+<form action="index_confirm.php" method="post">
+    <div class="form-item">名前</div>
+    <input type="text" name="name" value="">
+    <div class="form-item">E-mail</div>
+    <input type="text" name="email" value="">
+    <div class="form-item">年齢</div>
+    <select name="age">
+        <option value="未選択">選択してください</option>
+        <option value="10代">10代</option>
+        <option value="20代">20代</option>
+        <option value="30代">30代</option>
+        <option value="40代">40代</option>
+        <option value="50以上">50代以上</option>
+    </select>
+    <div class="form-item">性別</div>
+        <input type="radio" name="sex" value="男"> 男
+        <input type="radio" name="sex" value="女"> 女
+    <div class="btn">
+        <input type="submit" value="送信">
+
+    </div>
+</form>
+
 </body>
 </html>
